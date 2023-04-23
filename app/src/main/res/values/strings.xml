@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WorkoutApp</string>
+    <string name="startBtn">START</string>
+    <string name="textReady">GET READY FOR</string>
+    <string name="exerciseName">Exercise Name</string>
+    <string name="finish">You completed the exercise for the day</string>
+    <string name="textFinish">FINISH</string>
+    <string name="bmi">BMI</string>
+    <string name="work_out_app_string">Work Out App</string>
+    <string name="start_string">START</string>
+    <string name="calculate_Bmi">CALCULATE</string>
+    <string name="bmi_score">YOUR BMI</string>
+    <string name="weight_in">WEIGHT (in kg)</string>
+    <string name="height_in">HEIGHT (in cm)</string>
+
+</resources>

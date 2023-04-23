@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishActivity"
+    android:orientation="vertical"
+
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        android:background="@color/white"
+        app:titleTextColor="#000"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/FinishText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finish"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/FinishImage"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/checked"
+        android:contentDescription="@string/finish"
+       >
+    </ImageView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textFinish"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_margin="20dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
